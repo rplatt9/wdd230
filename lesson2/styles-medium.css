@@ -1,0 +1,12 @@
+@media (min-width: 32.5em) {
+    .main-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .last-image {
+        width: 600px;
+    }
+
+    .site-info-last {
+        grid-column: 1 / 3;
+    }
+}
