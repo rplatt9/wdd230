@@ -6,5 +6,14 @@ body {
 header {
     display: grid;
     grid-template-columns: 140px auto;
-    align-items: center
+    align-items: center;
+    background-color: navy;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
