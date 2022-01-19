@@ -12,6 +12,14 @@ header {
     font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.links {
+    font-family: 'Roboto', sans-serif;
+}
+
 footer {
     background-color: navy;
     color: white;
