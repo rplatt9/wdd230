@@ -1,0 +1,18 @@
+@media (min-width: 64em) {
+    nav {
+        flex-direction: row;
+    }
+
+
+    footer {
+        flex-flow: row;
+        margin: 30px;
+    }
+    footer div {
+        padding: 20px;
+    }
+
+    ol {
+        padding-inline-start: 25%;
+    }
+}

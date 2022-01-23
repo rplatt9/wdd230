@@ -1,0 +1,92 @@
+/*
+CSS rules for fonts:
+font-family: 'Architects Daughter', cursive;
+font-family: 'Nunito', sans-serif;
+*/
+
+body {
+    display: block;
+}
+.content {
+    background-color: #EAAC8B;
+    color: #1B512D;
+    max-width: 960px;
+    align-items: center;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    padding: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    border: 5px #EC7357 solid;
+}
+h1, h2 {
+    font-family: 'Architects Daughter', cursive; 
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+}
+
+nav {
+	background-color: #92AC86;
+	text-align: center;
+	box-shadow: 0 0 30px #1B512D;
+    border-radius: 5px;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	color: #5A3A31;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+nav a:hover {
+	background-color: #5A3A31;
+	color: #92AC86;
+    border-radius: 30px;
+}
+
+section {
+    text-align: center;
+}
+
+ol {
+    text-align: left;
+    padding-inline-start: 10%;
+    padding-inline-end: 10%;
+}
+
+footer {
+    display: flex;
+    flex-flow: column;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+footer div {
+    margin-top: -20px;
+}
+
+.colorimg {
+    max-width: 100%;
+}
+
