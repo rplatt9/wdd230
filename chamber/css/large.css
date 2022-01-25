@@ -1,0 +1,36 @@
+@media (min-width: 64em) {
+    
+    .mainheading {
+        max-width: 40%;
+    }
+
+    .headernav {
+        justify-self: flex-end;
+        min-width: 50%;
+    }
+
+    footer {
+        flex-flow: row;
+        margin: 30px;
+    }
+    footer div {
+        padding: 20px;
+    }
+
+    ol {
+        padding-inline-start: 25%;
+    }
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+}
