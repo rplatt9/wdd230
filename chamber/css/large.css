@@ -10,11 +10,33 @@
     }
 
     footer {
-        flex-flow: row;
-        margin: 30px;
+        flex-flow: column;
+        
     }
-    footer div {
-        padding: 20px;
+    #footer_top {
+        flex-direction: row;
+    }
+
+    #footer_under {
+        
+        flex-direction: row;
+    }
+
+    #footer_bottom {
+        flex-direction: row;
+        padding-top: 10px;
+    }
+
+    #footer_under section {
+        flex-grow: 1;
+    }
+
+    #footer_bottom p {
+        flex-grow: 1;
+    }
+
+    #footer_last {
+        padding-bottom: 10px;
     }
 
     ol {

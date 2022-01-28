@@ -1,4 +1,23 @@
 @media (min-width: 32.5em) {
- 
+    #footer_top {
+        flex-direction: row;
+    }
+
+    #footer_location {
+        margin-right: 10px;
+        
+    }
 	
+    #footer_contact {
+        
+        justify-self: end;
+    }
+
+    #footer_bottom {
+        flex-direction: row;
+    }
+
+    #footer_bottom p {
+        flex-grow: 1;
+    }
 }
