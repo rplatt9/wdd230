@@ -27,7 +27,7 @@ header {
 
 .headermain {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items:center;
 }
@@ -39,16 +39,15 @@ nav {
 	box-shadow: 0 0 30px #1B512D;
     border-radius: 5px;
     z-index: 1;
+    
 }
 ul {
     padding: 0;
-    max-width: 100%;
 }
 .navivgation {
     list-style: none;
     text-align: center;
     padding: 0;
-    max-width: 100%;
 }
 
 .navigation li:first-child {
@@ -81,10 +80,17 @@ ul {
 	display: block;
     width: 100%;
     
+    
 }
 
 .responsive a.ham::before {
 	content: "X";
+    
+}
+
+
+.navopen {
+    width: 50%;
 }
 
 
@@ -239,4 +245,13 @@ footer {
     border-width: 0px;   
       
         
+}
+
+#footerlink a {
+    color: #5A3A31;
+}
+
+#footerlink a:hover {
+    background-color: #5A3A31;
+	color: #92AC86;
 }
