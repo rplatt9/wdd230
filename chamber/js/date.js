@@ -26,5 +26,3 @@ else {
     bannerMessage = '';
 }
 document.querySelector('#bannermessage').innerHTML = bannerMessage;
-console.log(dayOfWeek);
-console.log(now);
