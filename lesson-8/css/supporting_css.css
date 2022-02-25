@@ -1,3 +1,6 @@
+body {
+    font-family: Ubuntu, sans-serif;
+}
 :root {
 	--back: rgb(49, 113, 150);
   --back2: rgba(41, 99, 165, 0.5);
