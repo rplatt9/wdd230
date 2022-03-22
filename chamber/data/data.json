@@ -1,0 +1,124 @@
+{
+    "business": [
+      {
+        "name": "Mounth Athos Restaraunt & Cafe",
+        "address": "444 N Pinal Parkway",
+        "city": "Florence",
+        "state": "AZ",
+        "zip": "85132",
+        "phone": "520-868-0735",
+        "website": "http://www.mountathoscafe.com",
+        "imageurl": ""
+      },
+      {
+        "name": "Spencer Auto Repair",
+        "address": "26096 N Contractors Rd, Yard B",
+        "city": "Florence",
+        "state": "AZ",
+        "zip": "85132",
+        "phone": "480-331-4292",
+        "website": "http://www.spencerautorepair.com",
+        "imageurl": ""
+      },
+      {
+        "name": "Ripple Industries",
+        "address": "27784 N Cooper Rd",
+        "city": "Florence",
+        "state": "AZ",
+        "zip": "85132",
+        "phone": "555-417-5909",
+        "website": "http://www.rippleind.com",
+        "imageurl": ""
+      },
+      {
+        "name": "Jalapeno's Restaurant",
+        "address": "981 S Main St",
+        "city": "Florence",
+        "state": "AZ",
+        "zip": "85132",
+        "phone": "520-88-8986",
+        "website": "https://jalapenosrestaurantflorence.com/",
+        "imageurl": ""
+      },
+      {
+        "name": "Florence Aquatic Center",
+        "address": "174 W 1st St",
+        "city": "Florence",
+        "state": "AZ",
+        "zip": "85132",
+        "phone": "520-868-7650",
+        "website": "http://www.florenceaz.gov/aquatic-center",
+        "imageurl": ""
+      },
+      {
+        "name": "Florence Fudge Shop & Cafe",
+        "address": "440 N Main St",
+        "city": "Florence",
+        "state": "AZ",
+        "zip": "85132",
+        "phone": "480-489-7009",
+        "website": "https://theflorencefudgeshop.com/",
+        "imageurl": ""
+      },
+      {
+        "name": "River Bottom Grill",
+        "address": "2501 N, AZ-79",
+        "city": "Florence",
+        "state": "AZ",
+        "zip": "85132",
+        "phone": "520-868-1331",
+        "website": "http://riverbottombar.com/",
+        "imageurl": ""
+      },
+      {
+        "name": "Rail Three Ranch",
+        "address": "390 N Main St",
+        "city": "Florence",
+        "state": "AZ",
+        "zip": "85132",
+        "phone": "520-705-4483",
+        "website": "http://www.railthreeranch.com/",
+        "imageurl": ""
+      },
+      {
+        "name": "Anthem Parkside Community Center",
+        "address": "3200 N Anthem Way",
+        "city": "Florence",
+        "state": "AZ",
+        "zip": "85132",
+        "phone": "520-723-6650",
+        "website": "http://www.ouranthemmr.net/",
+        "imageurl": ""
+      },
+      {
+        "name": "Arizona ATV Adventures",
+        "address": "E Price Rd",
+        "city": "Florence",
+        "state": "AZ",
+        "zip": "85132",
+        "phone": "928-282-8540",
+        "website": "https://www.arizonaatvadventures.com/",
+        "imageurl": ""
+      },
+      {
+        "name": "Florence Gardens Mobile Home",
+        "address": "3830 N Florence Blvd",
+        "city": "Florence",
+        "state": "AZ",
+        "zip": "85132",
+        "phone": "520-868-4770",
+        "website": "florencemobilehomes.com",
+        "imageurl": ""
+      },
+      {
+        "name": "Ritter Law Group, LLC",
+        "address": "250 N Main St",
+        "city": "Florence",
+        "state": "AZ",
+        "zip": "85132",
+        "phone": "520-868-3700",
+        "website": "ritterlaw.com",
+        "imageurl": ""
+      }
+    ]
+}

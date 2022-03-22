@@ -11,7 +11,7 @@
         width: 30%;
     }
 
-    main {
+    #index_main {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -26,17 +26,18 @@
         grid-row: 2/3;
     }
 
-    #main_spotlight {
+    #index_main #main_spotlight {
         grid-column: 1/3;
         grid-row: 3/4;
         display: flex;
         flex-direction: row;
         height: 200px;
+
     }
 
-    #main_spotlight div {
+    #index_main #main_spotlight div {
         width: 49%;
-        height: 97%;
+        height: 200px;
     }
 
     #main_join {
@@ -79,5 +80,38 @@
 
     #footer_bottom p {
         flex-grow: 1;
+    }
+
+
+    /* CSS RULES FOR DISCOVER PAGE */
+
+    .discover_content {
+        grid-template-columns: 1fr;
+    }
+
+    .discover_content div {
+    flex-direction: row;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    }
+    .discover_content div div {
+        flex-direction: column;
+    }
+    .discover_images:hover {
+        filter: sepia(50%);
+    }
+/* END */
+
+    /* CSS RULES FOR JOIN PAGE */
+
+    .app_info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .mem_level {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }

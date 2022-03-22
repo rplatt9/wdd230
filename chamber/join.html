@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for the Chamber of Commerce of Florence, AZ">
+    <title>Florence Chamber of Commerce-Join Page</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <header>
+            <div class="headermain">
+                <img class = 'logo' src="images/coflogo.webp" alt="Florence Chamber of Commerce Logo">
+                <section class="mainheading">
+                    <h1>Florence, AZ Chamber of Commerce</h1>
+                </section>
+            
+                <nav id = 'navigation' class="">
+                    <ul class = 'navigation'>
+                        <li><a class="ham" href="#"></a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="join.html">Join</a></li>
+                        <li><a href="directory.html">Directory</a></li>
+                        <li><a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer"><img src='images/facebookthumb.png' alt= 'Facebook Link'></a></li>
+                        <li><a href="http://www.youtube.com" target="_blank" rel="noopener noreferrer"><img src="images/youtubethumb.png" alt="Youtube Link"></a></li>
+                    </ul>
+                    <script src="js/menu.js"></script>
+                </nav>
+            
+            </div>
+            <div>
+                <section>
+                    <aside></aside>
+                    
+                </section>
+                <section>
+                    <p id = 'bannermessage'></p>
+                    <script src="js/date.js"></script>
+                </section>
+            </div>
+        </header>
+   <main>
+
+    <h2 class="join_call">Join the City of Florence Chamber of Commerce!</h2>
+        <div class="form_content">
+            <div class="member_levels">
+                <h3>Membership Levels</h3>
+                <div class="level">
+                <h4>Non-Profit (NP) Membership</h4>
+                <p>
+                    The Non-Profit Membership provides businesses the same benefits as
+                    the Gold Membership for the Chamber of Commerce, with that
+                    additional benefit that the Non-Profit Membership is free!<br /><strong
+                    >FREE</strong
+                    >
+                </p>
+                </div>
+                <div class="level">
+                <h4>Bronze Membership</h4>
+                <p>
+                    The Bronze Membership gets businesses a 10% discount on use of the
+                    Chamber of Commerce Gathering Room for any functions they would like
+                    to hold, as well as one spotlight on the Chamber of Commerce website
+                    per year, chosen at our discretion.<br /><strong
+                    >$150 per year</strong
+                    >
+                </p>
+                </div>
+                <div class="level">
+                <h4>Silver Membership</h4>
+                <p>
+                    The Silver Membership provides a 15% discount on use of the Chamber
+                    of Commerce Gathering Room for functions, and one spotlight on the
+                    Chamber of Commerce website per year, with your choice of what month
+                    your business is featured!<br /><strong>$225 per year</strong>
+                </p>
+                </div>
+                <div class="level">
+                <h4>Gold Membership</h4>
+                <p>
+                    Businesses selecting the Gold Membership with the Chamber of
+                    Commerce get use of the Gathering Room at a 25% discount and three
+                    spotlights, with the member's choice of what months the spotlight is
+                    featured!<br /><strong>$300 per year</strong>
+                </p>
+                </div>
+            </div>
+
+            <form method="get" action="thankyou.html" class="join_form">
+                <fieldset class="app_info">
+                <legend>Applicant Information</legend>
+                <label class="app_label">
+                    <p>First Name*</p>
+                    <input type="text" name="fname" required />
+                </label>
+                <label class="app_label">
+                    <p>Last Name*</p>
+                    <input type="text" name="lname" required />
+                </label>
+                <label class="app_label">
+                    <p>Business Name</p>
+                    <input
+                    type="text"
+                    name="title"
+                    pattern="([a-zA-Z -]+)"
+                    minlength="7"
+                    required
+                    />
+                </label>
+                <label class="app_label">
+                    <p>Position Title</p>
+                    <input
+                    type="text"
+                    name="title"
+                    pattern="([a-zA-Z -]+)"
+                    minlength="7"
+                    />
+                </label>
+                <label class="app_label">
+                    <p>Email*</p>
+                    <input
+                    type="email"
+                    name="email"
+                    placeholder="yourname@businessname.com"
+                    required
+                    />
+                </label>
+                <label class="app_label">
+                    <p>Phone*</p>
+                    <input type="tel" name="phone" required />
+                </label>
+                </fieldset>
+                <fieldset class="mem_level">
+                <legend>Membership Level</legend>
+                <label class="level_choice">
+                    <input type="radio" name="level" value="np" /> NP Membership - FREE
+                </label>
+                <label class="level_choice">
+                    <input type="radio" name="level" value="bronze" /> Bronze Membership
+                    - $150
+                </label class="level_choice">
+                <label class="level_choice">
+                    <input type="radio" name="level" value="Silver" /> Silver Membership
+                    - $225
+                </label class="level_choice">
+                <label>
+                    <input type="radio" name="level" value="Gold" /> Gold Membership -
+                    $300
+                </label>
+                </fieldset>
+                <fieldset class="bus_info">
+                <legend>Business Information</legend>
+                <textarea name="description" cols="35" rows="10" class="bus_entry"></textarea>
+                </fieldset>
+                <input type="hidden" id="formdate" name="date" />
+                <input type="submit" value="Join" class="submit_button" />
+            </form>
+        </div>
+    
+    </main>
+    <footer>
+        <section id="footer_top">
+            <div id="footer_logo">
+                <img class = 'logo' src="images/coflogo.webp" alt="Florence Chamber of Commerce Logo">
+            </div>
+            <div id="footer_location">
+                <h3>Florence Chamber of Commerce</h3>
+                <p>123 S Main Street</p>
+                <p>Florence, AZ 85132</p>
+            </div>
+            <div id="footer_contact">
+                <p>info@cityofflorenceaz.com</p>
+                <p>(480) 555-5555</p>
+                <p id="footerlink"><a href="https://goo.gl/maps/TZx4X9UkY6NwpRws6">Our Location!</a></p>
+            </div>
+        </section>
+
+        <hr id="footer_line">
+        <section id="footer_under">    
+            <section id="footer_bottom">
+                <p>© <span id="year">2022</span> | Florence Chamber | AZ </p>
+                <h3>Ross Platt</h3>
+                <p>WDD 230 Project</p>
+            </section>    
+            <section id="footer_last">
+                <p>Last Modified: <span id="lastModified">01/18/2022 21:58:05</span>
+                <script src="js/lastModified.js"> </script>
+                <script src="js/year.js"> </script>
+                </p>
+            </section>
+        </section>
+    </footer>
+
+    </div>
+    
+</body>
+</html>
