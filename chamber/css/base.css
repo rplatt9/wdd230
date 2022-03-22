@@ -324,3 +324,13 @@ footer {
     margin-bottom: 20px;
     justify-self: center;
 }
+
+/* CSS RULES FOR DIRECTORY PAGE */
+
+.gridview{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
