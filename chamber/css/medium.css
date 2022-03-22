@@ -101,7 +101,7 @@
     .discover_images:hover {
         filter: sepia(50%);
     }
-/* END */
+
 
     /* CSS RULES FOR JOIN PAGE */
 
@@ -114,4 +114,14 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+/* CSS RULES FOR DIRECTORY PAGE */
+.listview .dicard {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+    /* END */
 }
