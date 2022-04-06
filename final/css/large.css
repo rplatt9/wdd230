@@ -143,10 +143,14 @@
     }
 
 /* CSS RULES FOR TEMPLES */
-    .gridview{
-        display: grid;
-        grid-template-columns: 32% 32% 32%;
-        justify-content: center;
+    .cards {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cards p {
+        max-width: 175px;
+        justify-self: center;
     }
 
 /* END */

@@ -19,7 +19,7 @@ function displayBusiness(business) {
   // Create elements to add to the document
   let card = document.createElement("section");
   card.setAttribute("class", "dicard");
-  let h2 = document.createElement("h2");
+  let h3 = document.createElement("h3");
   let p = document.createElement("p");
   p.setAttribute("class", "diaddress");
   let p1 = document.createElement("p");
@@ -30,7 +30,7 @@ function displayBusiness(business) {
   let p3 = document.createElement("p");
   p3.setAttribute("class", "info");
 
-  h2.textContent = `${business.name}`;
+  h3.textContent = `${business.name}`;
   p.innerHTML = `${business.address}</br>${business.city}, ${business.state} ${business.zip}`;
   p1.innerHTML = `${business.phone}`;
   p2.innerHTML = `<a href=${business.website} target="_blank" rel="noopener noreferrer">Temple Website</a>`;
@@ -44,7 +44,7 @@ function displayBusiness(business) {
 
   // Add/append the section(card) with the h2 element
   card.appendChild(logo);
-  card.appendChild(h2);
+  card.appendChild(h3);
   card.appendChild(p);
   card.appendChild(p1);
   card.appendChild(p3);

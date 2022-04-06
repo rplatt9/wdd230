@@ -318,43 +318,15 @@ footer {
 
 /* CSS RULES FOR TEMPLES PAGE */
 
-.gridview{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap:10px;
-    text-align: center;
-    
+#temple_main {
+    display: flex;
+    flex-direction: column;
 }
 
-.cards.listview {
-    display: block;
-  }
-  
-  .listview .dicard {
-    display: none;
-  }
-  
-  .listview .dicard h2 {
-    display: block;
-  }
-  
-  .listview h2 {
-    font-size: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
-  .listview .dicard {
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: left;
-    margin-left: 20px;
-  }
+#temple_main p {
+    padding: 0px;
+}
 
-  .listview .dicard:nth-of-type(even) {
-    background-color: #e0dedc;
-  }
-  
-  .listview .dicard img.dilogo {
-    display: none;
-  }
+#temple_main img {
+    margin-top: 60px;
+}
