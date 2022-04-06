@@ -64,10 +64,18 @@
             <p>3301 S Greenfield Rd, Gilbert, AZ 85297</p>
             <p>(480)822-5000</p>
         </div>
-        <div id="index_weather">
+        <div class="current_weather">
             <h3>Local Weather</h3>
-        </div>
-    
+            <figure>
+              <img alt="weather icon" id="weathericon" />
+              <figcaption id="weathercap"></figcaption>
+            </figure>
+            <p>Temperature: <span id="temp"></span>&deg; F</p>
+            <p>Wind Speed: <span id="speed"></span> mph</p>
+            <p>Wind Chill: <span id="wchill"></span></p>
+            <p>Humidity: <span id="humid"></span>%</p>
+          </div>
+          <script src="js/weather.js"></script>
     </main>
     <footer>
         <hr id="footer_line">
