@@ -150,7 +150,16 @@
 
     .cards p {
         max-width: 175px;
-        justify-self: center;
+    }
+
+    .dicard {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dicard p {
+        align-self: center;
+
     }
 
 /* END */

@@ -84,12 +84,11 @@
     }
 
 /* CSS RULES FOR TEMPLE PAGE */
-.listview .dicard {
-    display: flex;
-    flex-direction: row;
-    text-align: left;
-    margin-left: 20px;
-  }
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
 
     /* END */
 }
