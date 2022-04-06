@@ -12,7 +12,7 @@ fetch(requestURL)
     //uses json() method
     console.table(jsonObject); // temporary checking for valid response and data parsing
     const temple = jsonObject["temple"];
-    business.forEach(displayTemple);
+    temple.forEach(displayTemple);
   });
 
 function displayTemple(temple) {
