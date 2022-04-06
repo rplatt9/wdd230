@@ -1,0 +1,144 @@
+@media (min-width: 64em) {
+    
+    .mainheading {
+        max-width: 40%;
+    }
+
+    .headernav {
+        justify-self: flex-end;
+        min-width: 50%;
+    }
+
+    .headermain {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+    }
+    
+
+    
+    /* CSS RULES FOR HOME PAGE */
+
+    #index_reservation {
+        grid-column: 1 / 3;
+        text-align: center;
+    }
+    #index_summary {
+        grid-column: 1 / 3;
+    }
+
+
+    footer {
+        flex-flow: column;
+        
+    }
+    #footer_top {
+        flex-direction: row;
+    }
+
+    #footer_under {
+        
+        flex-direction: row;
+    }
+
+    #footer_bottom {
+        flex-direction: row;
+        padding-top: 10px;
+    }
+
+    #footer_under section {
+        flex-grow: 1;
+    }
+
+    #footer_bottom p {
+        flex-grow: 1;
+    }
+
+    #footer_last {
+        padding-bottom: 10px;
+    }
+
+    ol {
+        padding-inline-start: 25%;
+    }
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+
+
+/* CSS RULES FOR DISCOVER PAGE */
+
+    .discover_content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        justify-items: end;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .discover_content div {
+        flex-direction: column;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+/* CSS RULES FOR JOIN PAGE */
+
+    .form_content {
+      display: grid;  
+    }
+
+    .membership_levels {
+        grid-column: 1/2;
+    }
+    .join_form {
+        display: grid;
+        grid-template-columns: 1fr fr;
+        justify-items: none;
+        grid-column: 2/3;
+    }
+
+    .app_info {
+        grid-column: 1/2;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mem_level {
+        grid-column: 2/3;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .bus_info {
+        grid-column: 1/3;
+    }
+
+    .submit_button {
+        grid-column: 1/3;
+
+    }
+
+/* CSS RULES FOR DIRECTORY */
+    .gridview{
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        justify-content: center;
+    }
+
+/* END */
+}

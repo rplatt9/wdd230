@@ -1,0 +1,45 @@
+{
+    "business": [
+      {
+        "name": "Kansas City Temple",
+        "address": "7001 Searcy Creek Pkwy",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "64119",
+        "phone": "(816)413-1430",
+        "website": "https://www.churchofjesuschrist.org/temples/details/kansas-city-missouri-temple?lang=eng",
+        "imageurl": "https://rplatt9.github.io/wdd230/final/images/temple_logos/kctemple.webp"
+      },
+      {
+        "name": "Nauvoo Temple",
+        "address": "50 N Wells St",
+        "city": "Nauvoo",
+        "state": "IL",
+        "zip": "62354",
+        "phone": "(217)453-6252",
+        "website": "",
+        "imageurl": "https://rplatt9.github.io/wdd230/final/images/temple_logos/nauvootemple.webp"
+      },
+      {
+        "name": "Mount Timpanogos Temple",
+        "address": "742 N 900 E",
+        "city": "American Fork",
+        "state": "UT",
+        "zip": "84003",
+        "phone": "(801)763-4540",
+        "website": "https://www.churchofjesuschrist.org/temples/details/mount-timpanogos-utah-temple?lang=eng",
+        "imageurl": "https://rplatt9.github.io/wdd230/final/images/temple_logos/aftemple.webp"
+      },
+      {
+        "name": "Monticello Temple",
+        "address": "365 N 200 W",
+        "city": "Monticello",
+        "state": "UT",
+        "zip": "84535",
+        "phone": "(435)587-3500",
+        "website": "https://www.churchofjesuschrist.org/temples/details/monticello-utah-temple?lang=eng",
+        "imageurl": "https://rplatt9.github.io/wdd230/final/images/temple_logos/monticellotemple.webp"
+      }
+    ]
+}
+      

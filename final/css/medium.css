@@ -1,0 +1,95 @@
+@media (min-width: 32.5em) {
+    
+    .headermain {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+    }
+    
+    .navopen {
+        width: 30%;
+    }
+   
+    #footer_top {
+        flex-direction: row;
+    }
+
+    #footer_location {
+        margin-right: 10px;
+        
+    }
+	
+    #footer_contact {
+        
+        justify-self: end;
+    }
+
+    #footer_bottom {
+        flex-direction: row;
+    }
+
+    #footer_bottom p {
+        flex-grow: 1;
+    }
+
+    /* CSS RULES FOR HOME PAGE */
+
+    #index_main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #index_main_title {
+        grid-column: 1 / 3;
+    }
+
+
+    #index_main_temple {
+        grid-column: 1 / 3;
+    }
+    
+
+
+    /* CSS RULES FOR DISCOVER PAGE */
+
+    .discover_content {
+        grid-template-columns: 1fr;
+    }
+
+    .discover_content div {
+    flex-direction: row;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    }
+    .discover_content div div {
+        flex-direction: column;
+    }
+    .discover_images:hover {
+        filter: sepia(50%);
+    }
+
+
+    /* CSS RULES FOR JOIN PAGE */
+
+    .app_info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .mem_level {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+/* CSS RULES FOR DIRECTORY PAGE */
+.listview .dicard {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+    /* END */
+}
