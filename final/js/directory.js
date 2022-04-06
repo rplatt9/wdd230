@@ -11,11 +11,11 @@ fetch(requestURL)
   .then(function (jsonObject) {
     //uses json() method
     console.table(jsonObject); // temporary checking for valid response and data parsing
-    const temple = jsonObject["temple"];
-    temple.forEach(displayTemple);
+    const business = jsonObject["business"];
+    business.forEach(displayBusiness);
   });
 
-function displayTemple(temple) {
+function displayBusiness(business) {
   // Create elements to add to the document
   let card = document.createElement("section");
   card.setAttribute("class", "dicard");
@@ -28,14 +28,14 @@ function displayTemple(temple) {
   p2.setAttribute("class", "diwebpage");
   let logo = document.createElement("img");
 
-  h2.textContent = `${temple.name}`;
-  p.innerHTML = `${temple.address}</br>${temple.city}, ${temple.state} ${temple.zip}`;
-  p1.innerHTML = `${temple.phone}`;
-  p2.innerHTML = `${temple.website}`;
+  h2.textContent = `${business.name}`;
+  p.innerHTML = `${business.address}</br>${business.city}, ${business.state} ${business.zip}`;
+  p1.innerHTML = `${business.phone}`;
+  p2.innerHTML = `${business.website}`;
 
   // Build the image attributes
-  logo.setAttribute("src", temple.imageurl);
-  logo.setAttribute("alt", `logo of ${temple.name}}`);
+  logo.setAttribute("src", business.imageurl);
+  logo.setAttribute("alt", `logo of ${business.name}}`);
   logo.setAttribute("loading", "lazy");
   logo.setAttribute("class", "dilogo");
 
