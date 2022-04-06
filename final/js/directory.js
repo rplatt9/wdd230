@@ -27,11 +27,14 @@ function displayBusiness(business) {
   let p2 = document.createElement("p");
   p2.setAttribute("class", "diwebpage");
   let logo = document.createElement("img");
+  let p3 = document.createElement("p");
+  p3.setAttribute("class", "info");
 
   h2.textContent = `${business.name}`;
   p.innerHTML = `${business.address}</br>${business.city}, ${business.state} ${business.zip}`;
   p1.innerHTML = `${business.phone}`;
   p2.innerHTML = `<a href=${business.website} target="_blank" rel="noopener noreferrer">Temple Website</a>`;
+  p3.innerHTML = `Visit the temple website to learn more about services offered and the ordinance schedule`
 
   // Build the image attributes
   logo.setAttribute("src", business.imageurl);
@@ -44,6 +47,7 @@ function displayBusiness(business) {
   card.appendChild(h2);
   card.appendChild(p);
   card.appendChild(p1);
+  card.appendChild(p3);
   card.appendChild(p2);
 
   // Add/append the existing HTML div with the cards class with the section(card)
