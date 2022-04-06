@@ -44,7 +44,95 @@
             </div>
         </header>
     <main id="reservation_main">
-       
+        <form method="get" action="thankyou.html" class="res_form">
+            
+            <fieldset class="stay">
+                <legend>Stay Information</legend>
+                <label>
+                  Temple:
+                  <select name="temple">
+                    <option value="">Select One</option>
+                    <option value="kc_temple">Kansas City, MO</option>
+                    <option value="nauvoo_temple">Nauvoo, IL</option>
+                    <option value="timp_temple">Mount Timpanogos, UT</option>
+                    <option value="mont_temple">Monticello, UT</option>
+                  </select>
+                </label>
+                <label>
+                  Checkin Date: <input type="date" name="checkin" required />
+                </label>
+                <label>
+                  Checkout Date: <input type="date" name="checkout" required />
+                </label>
+      
+                <label>
+                  Adults:
+                  <select name="adults">
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                  </select>
+                </label>
+                <label>
+                  Children:
+                  <select name="children">
+                    <option value="">0</option>
+                    <option value="onecount">1</option>
+                    <option value="twocount">2</option>
+                    <option value="threecount">3+</option>
+                  </select>
+                </label>
+            </fieldset>
+
+            <fieldset class="room_type">
+                <legend>Room Type</legend>
+                <label class="room_choice">
+                    <input type="radio" name="level" value="np" /> 1 Queen
+                </label>
+                <label class="room_choice">
+                    <input type="radio" name="level" value="bronze" /> 2 Queens
+                </label class="room_choice">
+                <label class="room_choice">
+                    <input type="radio" name="level" value="Silver" /> 1 King
+                </label class="room_choice">
+                <label>
+                    <input type="radio" name="level" value="Gold" /> 2 Queens with Kitchenette
+                </label>
+                </fieldset>
+                <fieldset class="spec_acc">
+                <legend>Special Accommodations</legend>
+                <textarea name="description" cols="35" rows="10" class="acc_entry"></textarea>
+                </fieldset>
+            <fieldset class="contact_info">
+            <legend>Contact Information</legend>
+            <label class="contact_label">
+                <p>First Name*</p>
+                <input type="text" name="fname" required />
+            </label>
+            <label class="contact_label">
+                <p>Last Name*</p>
+                <input type="text" name="lname" required />
+            </label>
+            </label>
+            <label class="contact_label">
+                <p>Email*</p>
+                <input
+                type="email"
+                name="email"
+                placeholder="yourname@url.com"
+                required
+                />
+            </label>
+            <label class="contact_label">
+                <p>Phone*</p>
+                <input type="tel" name="phone" required />
+            </label>
+            </fieldset>
+            
+            <input type="hidden" id="formdate" name="date" />
+            <input type="submit" value="Submit" class="submit_button" />
+        </form>
         
     
     </main>

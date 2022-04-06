@@ -268,41 +268,48 @@ footer {
     transition: filter 1s;
 }
 
-/* CSS RULES FOR JOIN PAGE */
+/* CSS RULES FOR RESERVATION PAGE */
 
-.join_form {
+.res_form {
     display: flex;
     flex-direction: column;
 }
 
-.app_info {
+.contact_info {
     display: flex;
     flex-direction: column;
 }
 
-.app_label p{
+.contact_label p{
     padding: 0px;
     margin: 0px;
 }
 
-.mem_level {
+.stay {
     display: flex;
     flex-direction: column;
 }
 
-.bus_info {
+.room_type {
+    display: flex;
+    flex-direction: column;
+}
+
+.spec_acc {
     display: flex;
 
 }
 
-.bus_entry {
+.acc_entry {
     width: 100%;
 }
 
 .submit_button {
-    max-width: 50px;
+    max-width: 60px;
+    margin-top: 5px;
     margin-bottom: 20px;
     justify-self: center;
+    align-self: center;
 }
 
 /* CSS RULES FOR DIRECTORY PAGE */

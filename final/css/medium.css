@@ -73,12 +73,12 @@
 
     /* CSS RULES FOR JOIN PAGE */
 
-    .app_info {
+    .contact_info {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    .mem_level {
+    .room_type {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }

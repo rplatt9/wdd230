@@ -104,27 +104,29 @@
     .membership_levels {
         grid-column: 1/2;
     }
-    .join_form {
+    .res_form {
         display: grid;
         grid-template-columns: 1fr fr;
         justify-items: none;
         grid-column: 2/3;
     }
 
-    .app_info {
-        grid-column: 1/2;
-        display: flex;
-        flex-direction: column;
-    }
+    
 
-    .mem_level {
+    .room_type {
         grid-column: 2/3;
         display: flex;
         flex-direction: column;
 
     }
+    .contact_info {
+        grid-column: 1/3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-    .bus_info {
+    .spec_acc {
         grid-column: 1/3;
     }
 
