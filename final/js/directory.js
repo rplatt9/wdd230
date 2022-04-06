@@ -31,7 +31,7 @@ function displayBusiness(business) {
   h2.textContent = `${business.name}`;
   p.innerHTML = `${business.address}</br>${business.city}, ${business.state} ${business.zip}`;
   p1.innerHTML = `${business.phone}`;
-  p2.innerHTML = `${business.website}`;
+  p2.innerHTML = `<a href=${business.website} target="_blank" rel="noopener noreferrer">Temple Website</a>`;
 
   // Build the image attributes
   logo.setAttribute("src", business.imageurl);

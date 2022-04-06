@@ -71,7 +71,7 @@
     }
 
 
-    /* CSS RULES FOR JOIN PAGE */
+    /* CSS RULES FOR RESERVATION PAGE */
 
     .contact_info {
         display: grid;
@@ -83,7 +83,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
-/* CSS RULES FOR DIRECTORY PAGE */
+/* CSS RULES FOR TEMPLE PAGE */
 .listview .dicard {
     display: flex;
     flex-direction: row;

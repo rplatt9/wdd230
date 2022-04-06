@@ -242,37 +242,41 @@ footer {
     text-align: center;
 }
 
-/* CSS RULES FOR DISCOVER PAGE */
+/* CSS RULES FOR SERVICES PAGE */
 
-.discover_content{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-    justify-items: end;
-    width: 100% ;
-}
-
-.discover_content div {
+#services_main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 15px;
 }
 
-.discover_images[data-src]{
-    filter: blur(0.5em);
+.services_title {
+    grid-column: 1/3;
 }
 
-.discover_images {
-    filter: blur(0em);
-    transition: filter 1s;
+.services_list {
+    grid-column: 1/2;
+    padding: 15px;
+}
+.services_list ul {
+    font-family: 'Dosis';
+}
+
+.amenities_list {
+    grid-column: 2/3;
+    padding: 15px;
+}
+.amenities_list ul {
+    font-family: 'Dosis';
 }
 
 /* CSS RULES FOR RESERVATION PAGE */
 
+
 .res_form {
     display: flex;
     flex-direction: column;
+    font-family: 'Dosis';
 }
 
 .contact_info {
@@ -312,7 +316,7 @@ footer {
     align-self: center;
 }
 
-/* CSS RULES FOR DIRECTORY PAGE */
+/* CSS RULES FOR TEMPLES PAGE */
 
 .gridview{
     display: grid;

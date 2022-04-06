@@ -95,7 +95,14 @@
         margin-top: 5px;
     }
 
-/* CSS RULES FOR JOIN PAGE */
+/* CSS RULES FOR SERVICES PAGE */
+
+    #services_main {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+
+/* CSS RULES FOR RESERVATION PAGE */
 
     .form_content {
       display: grid;  
@@ -135,7 +142,7 @@
 
     }
 
-/* CSS RULES FOR DIRECTORY */
+/* CSS RULES FOR TEMPLES */
     .gridview{
         display: grid;
         grid-template-columns: 32% 32% 32%;
